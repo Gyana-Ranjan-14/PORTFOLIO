@@ -1,0 +1,48 @@
+/* Css for the upper nav menu (Button and name) */
+
+@media (max-width: 1300px) {
+    .btns1 {
+        padding: 5px 17px;
+        background: #4aa5b8;
+        text-decoration: none;
+        margin-left: 450px;
+        border-radius: 4px;
+        font-size: 15px;
+        color: #fff;
+        transition: 0.5s;
+        font-family: 'Pushster', cursive;
+    }
+}
+
+@media (max-width: 1070px) {
+    .btns1 {
+        padding: 5px 17px;
+        background: #4aa5b8;
+        text-decoration: none;
+        margin-left: 360px;
+        border-radius: 4px;
+        font-size: 15px;
+        color: #fff;
+        transition: 0.5s;
+        font-family: 'Pushster', cursive;
+    }
+}
+
+@media (max-width: 880px) {
+    .btns1 {
+        display: none;
+    }
+}
+
+@media (max-width: 400px) {
+    .left_area h3 {
+        position: fixed;
+        color: #fff;
+        margin: 0;
+        font-size: 24px;
+        left: 70px;
+    }
+}
+
+
+/* End of css for the upper nav menu (Button and name)  */
