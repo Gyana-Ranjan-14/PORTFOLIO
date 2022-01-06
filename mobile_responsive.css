@@ -67,7 +67,7 @@
 
 /* Under working */
 
-@media (max-width: 550px) {
+@media (max-width: 570px) {
     .content {
         margin-left: 194px;
     }
@@ -109,6 +109,28 @@
         margin: 0;
         font-size: 24px;
         left: 95px;
+    }
+    .names {
+        position: absolute;
+        margin-top: 80px;
+        margin-left: 75px;
+        color: aliceblue;
+        line-height: 65px;
+        text-transform: uppercase;
+    }
+    .names p {
+        font-size: 20px;
+        font-weight: 600;
+    }
+    .names h1 {
+        font-size: 35px;
+        margin-left: -8px;
+        color: transparent;
+        -webkit-text-stroke: 1px #fff;
+    }
+    .names h3 {
+        font-size: 14px;
+        font-weight: 400;
     }
 }
 
