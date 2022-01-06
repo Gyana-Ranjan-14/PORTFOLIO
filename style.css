@@ -9,7 +9,7 @@ body {
 
 header {
     position: fixed;
-    background: #22242A;
+    background: #22242a;
     padding: 16px;
     width: 100%;
     height: 30px;
@@ -23,12 +23,12 @@ header {
     color: #fff;
     margin: 0;
     font-size: 28px;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
     left: 90px;
 }
 
 .left_area span {
-    color: #19B3D3;
+    color: #19b3d3;
 }
 
 
@@ -47,7 +47,7 @@ header {
     font-size: 15px;
     color: #fff;
     transition: 0.5s;
-    font-family: 'Pushster', cursive;
+    font-family: "Pushster", cursive;
 }
 
 .btns1:hover {
@@ -85,12 +85,20 @@ header {
 }
 
 .sidebar h4 {
-    color: #149ddd;
+    font-size: 16px;
+    color: rgb(141, 238, 225);
     margin-top: 0;
     margin-bottom: 20px;
-    font-size: 16px;
-    font-family: 'Josefin Sans', sans-serif;
-    font-weight: 600;
+    font-family: "Josefin Sans", sans-serif;
+}
+
+
+/* For animating text */
+
+@keyframes back {
+    50% {
+        background-position: 200px 0;
+    }
 }
 
 .sidebar .link {
@@ -105,9 +113,10 @@ header {
     border-top: 1px solid rgba(255, 255, 255, 0.1);
     border-bottom: 1px solid rgb(0, 0, 0);
     border-left: 5px solid transparent;
-    font-family: 'Libre Baskerville', serif;
+    font-family: "Libre Baskerville", serif;
     transition: 0.5s;
-    font-family: 'Vujahday Script', cursive;
+    font-family: "Vujahday Script", cursive;
+    cursor: pointer;
 }
 
 .sidebar .link:hover {
@@ -140,7 +149,7 @@ label #sidebar_btn {
 }
 
 label #sidebar_btn:hover {
-    color: #19B3D3;
+    color: #19b3d3;
 }
 
 
@@ -184,18 +193,6 @@ label #sidebar_btn:hover {
 }
 
 
-/* Css for the background image */
-
-.content {
-    margin-left: 250px;
-    background: url(bg.jpg) no-repeat;
-    background-position: center;
-    background-size: cover;
-    height: 100vh;
-    transition: 0.5s;
-}
-
-
 /* When the bar button is clicked the image will go left of 40px */
 
 #check:checked~.content {
@@ -207,4 +204,71 @@ label #sidebar_btn:hover {
 
 #check {
     display: none;
+}
+
+
+/* Css for the background image */
+
+.content {
+    margin-left: 250px;
+    background: url(bg2.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 100vh;
+    transition: 0.5s;
+}
+
+.names {
+    position: absolute;
+    margin-top: 190px;
+    margin-left: 50px;
+    color: aliceblue;
+    text-transform: uppercase;
+}
+
+.names p {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.names h1 {
+    font-size: 55px;
+    line-height: 20px;
+    margin-left: -10px;
+    color: transparent;
+    -webkit-text-stroke: 1px #fff;
+    background: url(back.png);
+    -webkit-background-clip: text;
+    animation: back 20s linear infinite;
+}
+
+@keyframes back {
+    100% {
+        background-position: 2000px 0;
+    }
+}
+
+.names h3 {
+    font-size: 20px;
+    font-weight: 500;
+}
+
+.row {
+    margin-top: 10px;
+}
+
+.main-btn {
+    border: 1px solid #3498db;
+    border-radius: 3px;
+    color: #dba6f0;
+    background: none;
+    padding: 10px 10px;
+    font-size: 20px;
+    cursor: pointer;
+    margin: 7px;
+}
+
+.main-btn:hover {
+    background: #74e3eb;
+    color: #140c0c;
 }
