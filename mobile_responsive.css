@@ -1,5 +1,18 @@
 /* Css for the upper nav menu (Button and name) */
 
+@media (max-width: 1430px) {
+    #check:checked~.content {
+        margin-left: -113px;
+    }
+    .names {
+        position: absolute;
+        margin-top: 160px;
+        color: rgb(32, 151, 255);
+        line-height: 80px;
+        text-transform: uppercase;
+    }
+}
+
 @media (max-width: 1300px) {
     .btns1 {
         padding: 5px 17px;
@@ -10,11 +23,17 @@
         font-size: 15px;
         color: #fff;
         transition: 0.5s;
-        font-family: 'Pushster', cursive;
+        font-family: "Pushster", cursive;
+    }
+    #check:checked~.content {
+        margin-left: -73px;
     }
 }
 
 @media (max-width: 1070px) {
+    #check:checked~.content {
+        margin-left: -73px;
+    }
     .btns1 {
         padding: 5px 17px;
         background: #4aa5b8;
@@ -24,15 +43,43 @@
         font-size: 15px;
         color: #fff;
         transition: 0.5s;
-        font-family: 'Pushster', cursive;
+        font-family: "Pushster", cursive;
     }
     .names {
         position: absolute;
         margin-top: 160px;
-        margin-left: 100px;
+        margin-left: 280px;
         color: aliceblue;
         line-height: 70px;
         text-transform: uppercase;
+    }
+}
+
+@media (max-width: 997px) {
+    #check:checked~.content {
+        margin-left: -73px;
+    }
+    .names {
+        position: absolute;
+        margin-top: 140px;
+        margin-left: 274px;
+        color: aliceblue;
+        line-height: 97px;
+        text-transform: uppercase;
+    }
+    .names p {
+        font-size: 36px;
+        font-weight: 300;
+    }
+    .names h1 {
+        font-size: 45px;
+        margin-left: -2px;
+        -webkit-text-stroke: 1px rgb(22, 22, 22);
+        color: transparent;
+    }
+    .names h3 {
+        font-size: 26px;
+        font-weight: 500;
     }
 }
 
@@ -43,18 +90,18 @@
     .names {
         position: absolute;
         margin-top: 140px;
-        margin-left: 80px;
+        margin-left: 268px;
         color: aliceblue;
-        line-height: 60px;
+        line-height: 90px;
         text-transform: uppercase;
     }
     .names p {
-        font-size: 236x;
+        font-size: 36px;
         font-weight: 300;
     }
     .names h1 {
-        font-size: 35px;
-        margin-left: -10px;
+        font-size: 45px;
+        margin-left: -2px;
         -webkit-text-stroke: 1px rgb(22, 22, 22);
         color: transparent;
     }
@@ -64,18 +111,35 @@
     }
 }
 
-
-/* Under working */
-
-@media (max-width: 570px) {
-    .content {
-        margin-left: 194px;
-    }
+@media (max-width: 629px) {
     .names h1 {
-        font-size: 30px;
-        margin-left: -10px;
+        font-size: 33px;
+        margin-left: -2px;
         color: transparent;
         -webkit-text-stroke: 1px #fff;
+    }
+    #check:checked~.content {
+        margin-left: -73px;
+    }
+}
+
+@media (max-width: 570px) {
+    #check:checked~.content {
+        margin-left: -23px;
+    }
+    .names {
+        position: absolute;
+        margin-top: 160px;
+        margin-left: 150px;
+        color: aliceblue;
+        line-height: 85px;
+        text-transform: uppercase;
+    }
+    .names h1 {
+        font-size: 25px;
+        margin-left: -2px;
+        color: transparent;
+        -webkit-text-stroke: 0.2px rgb(0, 0, 0);
     }
     .names h3 {
         margin-left: -12px;
@@ -112,10 +176,10 @@
     }
     .names {
         position: absolute;
-        margin-top: 80px;
-        margin-left: 75px;
+        margin-top: 140px;
+        margin-left: 90px;
         color: rgb(101, 183, 255);
-        line-height: 65px;
+        line-height: 95px;
         text-transform: uppercase;
     }
     .names p {
@@ -123,8 +187,8 @@
         font-weight: 600;
     }
     .names h1 {
-        font-size: 35px;
-        margin-left: -8px;
+        font-size: 30px;
+        margin-left: -2px;
     }
     .names h3 {
         font-size: 14px;
@@ -132,5 +196,39 @@
     }
 }
 
-
-/* End of css for the upper nav menu (Button and name)  */
+@media (max-width: 330px) {
+    .left_area h3 {
+        position: fixed;
+        color: #fff;
+        margin: 0;
+        font-size: 24px;
+        left: 83px;
+    }
+    .names {
+        position: absolute;
+        margin-top: 90px;
+        margin-left: 90px;
+        color: rgb(101, 183, 255);
+        line-height: 95px;
+        text-transform: uppercase;
+    }
+    .names p {
+        font-size: 17px;
+        font-weight: 600;
+    }
+    .names h1 {
+        font-size: 25px;
+        margin-left: -2px;
+    }
+    .names .anime-text {
+        font-size: 20px;
+        font-weight: 500;
+        font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande", "Lucida Sans", Arial, sans-serif;
+    }
+    label #sidebar_btn {
+        margin-left: -12px;
+    }
+    .left_area h3 {
+        margin-left: -1px;
+    }
+}

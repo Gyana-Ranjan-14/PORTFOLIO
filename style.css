@@ -69,6 +69,7 @@ header {
     height: 100%;
     transition: 0.5s;
     transition-property: left;
+    z-index: 1;
 }
 
 
@@ -191,9 +192,10 @@ label #sidebar_btn:hover {
 
 /* When the bar button is clicked the image will go left of 40px */
 
-#check:checked~.content {
+
+/* #check:checked~.content {
     margin-left: 36px;
-}
+} */
 
 
 /* Hide the check button */
@@ -206,7 +208,7 @@ label #sidebar_btn:hover {
 /* Css for the background image */
 
 .content {
-    margin-left: 250px;
+    /* margin-left: 250px; */
     background: url(bg2.jpg) no-repeat;
     background-position: center;
     background-size: cover;
@@ -217,7 +219,7 @@ label #sidebar_btn:hover {
 .names {
     position: absolute;
     margin-top: 160px;
-    margin-left: 140px;
+    margin-left: 360px;
     color: rgb(146, 207, 48);
     line-height: 70px;
     text-transform: uppercase;
