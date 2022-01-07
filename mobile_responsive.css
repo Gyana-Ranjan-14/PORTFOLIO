@@ -1,5 +1,8 @@
 /* Css for the upper nav menu (Button and name) */
 
+
+/* When the screen size is at this size  */
+
 @media (max-width: 1430px) {
     #check:checked~.content {
         margin-left: -113px;
@@ -12,6 +15,9 @@
         text-transform: uppercase;
     }
 }
+
+
+/* When the screen size is at this size  */
 
 @media (max-width: 1300px) {
     .btns1 {

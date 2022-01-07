@@ -208,8 +208,8 @@ label #sidebar_btn:hover {
 /* Css for the background image */
 
 .content {
-    /* margin-left: 250px; */
-    background: url(bg2.jpg) no-repeat;
+    /* margin-left: -110px; */
+    background: url(bg1.png) no-repeat;
     background-position: center;
     background-size: cover;
     height: 100vh;
