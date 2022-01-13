@@ -271,3 +271,15 @@ label #sidebar_btn:hover {
     background: #7ae4cdd5;
     color: #140c0c;
 }
+
+
+/* Preloader css */
+
+#preloader {
+    background: #000000 url(preloader.gif) no-repeat center;
+    height: 100vh;
+    width: 100%;
+    background-size: 15%;
+    position: fixed;
+    z-index: 100;
+}
