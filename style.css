@@ -12,6 +12,7 @@ header {
     padding: 16px;
     width: 100%;
     height: 30px;
+    z-index: 100;
 }
 
 
@@ -65,11 +66,11 @@ header {
     padding-top: 30px;
     position: fixed;
     left: 0;
-    width: 252px;
+    width: 260px;
     height: 100%;
-    transition: 0.5s;
-    transition-property: left;
+    transition: all 0.5s;
     z-index: 1;
+    overflow-x: hidden;
 }
 
 
@@ -93,6 +94,23 @@ header {
     background: -webkit-linear-gradient(rgb(161, 255, 169), rgb(115, 176, 245));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
+}
+
+
+/* close btn css */
+
+.closebtn {
+    position: absolute;
+    right: 22px;
+    color: #fff;
+    text-decoration: none;
+    font-size: 20px;
+    font-weight: 1000;
+    margin-top: -12px;
+}
+
+.closebtn:hover {
+    color: #19b3d3;
 }
 
 
@@ -133,7 +151,7 @@ header {
 
 /* Css for the bar button menu in upper nav */
 
-label #sidebar_btn {
+#sidebar_btn {
     z-index: 1;
     color: #fff;
     position: fixed;
@@ -145,28 +163,8 @@ label #sidebar_btn {
     transition-property: color;
 }
 
-label #sidebar_btn:hover {
+#sidebar_btn:hover {
     color: #19b3d3;
-}
-
-
-/* When it is clicked the side nav bar will go left of -200px */
-
-#check:checked~.sidebar {
-    left: -207px;
-}
-
-#check:checked~.sidebar a span {
-    display: none;
-}
-
-
-/* The icons of sidebar will be shown */
-
-#check:checked~.sidebar a {
-    font-size: 20px;
-    margin-left: 170px;
-    width: 80px;
 }
 
 
@@ -187,21 +185,6 @@ label #sidebar_btn:hover {
 
 .social-links a :hover {
     color: #92baf7;
-}
-
-
-/* When the bar button is clicked the image will go left of 40px */
-
-
-/* #check:checked~.content {
-    margin-left: 36px;
-} */
-
-
-/* Hide the check button */
-
-#check {
-    display: none;
 }
 
 
@@ -282,4 +265,37 @@ label #sidebar_btn:hover {
     background-size: 15%;
     position: fixed;
     z-index: 100;
+}
+
+
+/* About us section Css */
+
+#about {
+    position: absolute;
+}
+
+.container {
+    position: absolute;
+}
+
+.container h2 {
+    margin-top: 70px;
+    text-align: center;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.container p {
+    margin-left: 300px;
+    margin-right: 500px;
+    margin-top: 140px;
+}
+
+.aboutimg img {
+    width: 400px;
+    float: right;
+    margin-bottom: 32px;
+    margin-top: 92px;
+    margin-right: 23px;
+    border-radius: 80px;
 }

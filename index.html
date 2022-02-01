@@ -27,11 +27,10 @@
     <div id="preloader">
     </div>
     <!-- upper navigation menu bar -->
-    <input type="checkbox" id="check">
     <header>
-        <label for="check">
-            <i class="fas fa-bars" id="sidebar_btn"></i>
-        </label>
+        <div>
+            <i class="fas fa-bars" id="sidebar_btn" onclick="opennav()"></i>
+        </div>
         <div class="left_area">
             <h3>Gyana <span> Ranjan </span> Barik</h3>
         </div>
@@ -44,49 +43,73 @@
     <!-- upper navigation menu bar  ending-->
 
     <!--vertical nav menu start-->
-    <div class="sidebar ">
+    <div class="sidebar" id="mysidenav">
+        <a href="javascript:void(0)" class="closebtn" onclick="closenav()"><i class="fas fa-times"></i>
+        </a>
         <!-- Profile anf name -->
         <center>
-            <img src="profile.png " class="profile_image " alt=" ">
+            <img src="profile.png" class="profile_image " id="profileimg">
             <h4>Gyana Ranjan Barik</h4>
             <h4>(Developer)</h4>
         </center>
-        <a class="link href=" # "><i class=" fas fa-home , new "></i><span>Home</span></a>
-        <a class=" link href=" # "><i class="fas fa-user , new "></i><span>About</span></a>
-        <a class="link href=" # "><i class=" fas fa-database , new "></i><span>Projects</span></a>
-        <a class=" link href=" # "><i class="fas fa-user-graduate , new "></i><span>Education</span></a>
-        <a class="link href=" # "><i class=" fas fa-code , new "></i><span>Skills</span></a>
-        <a class=" link href=" # "><i class="fas fa-id-card , new "></i><span>Certificates</span></a>
-        <a class="link href=" # "><i class=" fas fa-id-badge , new "></i><span>Contact Me</span></a>
 
+        <div id="side">
+            <a class="link " href=" # "><i class=" fas fa-home , new "></i><span>Home</span></a>
+            <a class=" link " href="#"><i class="fas fa-user , new "></i><span>About</span></a>
+            <a class="link " href=" # "><i class=" fas fa-database , new "></i><span>Projects</span></a>
+            <a class=" link " href=" # "><i class="fas fa-user-graduate , new "></i><span>Education</span></a>
+            <a class="link " href=" # "><i class=" fas fa-code , new "></i><span>Skills</span></a>
+            <a class=" link " href=" # "><i class="fas fa-id-card , new "></i><span>Certificates</span></a>
+            <a class="link " href=" # "><i class=" fas fa-id-badge , new "></i><span>Contact Me</span></a>
+        </div>
 
         <!-- Social links -->
         <div class=" social-links ">
-            <a " href="https://www.linkedin.com/in/gyana-ranjan-barik-b7a62120a/ " target="_blank " class="linkdin "><i class="fab fa-linkedin "></i></a>
-        <a href="https://www.instagram.com/m.r_chiku/ " target="_blank " class="instagram "><i
-                class="fab fa-instagram-square "></i></a>
-        <a href="https://github.com/Gyana-Ranjan-14 " class="github " target="_blank "><i
-                class="fab fa-github "></i></a>
-        <a href="https://twitter.com/Gyana_ranjan_14 " target="_blank " class="facebook "><i
-                class="fab fa-twitter "></i></a>
-    </div>
+            <a " href=" https://www.linkedin.com/in/gyana-ranjan-barik-b7a62120a/ " target=" _blank " class=" linkdin "><i class=" fab fa-linkedin "></i></a>
+            <a href=" https://www.instagram.com/m.r_chiku/ " target=" _blank " class=" instagram "><i
+                    class=" fab fa-instagram-square "></i></a>
+            <a href=" https://github.com/Gyana-Ranjan-14 " class=" github " target=" _blank "><i
+                    class=" fab fa-github "></i></a>
+            <a href=" https://twitter.com/Gyana_ranjan_14 " target=" _blank " class=" facebook "><i
+                    class=" fab fa-twitter "></i></a>
+        </div>
+
     </div>
     <!--vertical nav menu end-->
 
     <!-- Main bg and text start -->
-    <div class="content ">
-        <div class="names ">
+    <div class=" content ">
+        <div class=" names ">
             <p>Hi , I'M</p>
-            <div class="anime-text "><span class="typing">Student</span></div>
-            <h1>Gyana Ranjan</h1>
-            <div class="row ">
-                <button class="main-btn ">Download CV</button>
-                <button class="main-btn ">Contact Me</button>
-            </div>
+            <div class=" anime-text "><span class=" typing ">Student</span>
+        </div>
+        <h1>Gyana Ranjan</h1>
+        <div class=" row ">
+            <button class=" main-btn ">Download CV</button>
+            <button class=" main-btn ">Contact Me</button>
         </div>
     </div>
+    </div>
+
+    <!-- About Section -->
+    <!-- <section id=" about " class=" about ">
+        <div class=" container ">
+                <h2>About Me</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Pariatur enim asperiores ipsam obcaecati
+                    quaerat quia ea impedit nemo harum laudantium corrupti quae doloremque dicta, sint, illo facilis ab
+                    consequatur et! Lorem ipsum, dolor sit amet consectetur adipisicing elit. Mollitia aliquid doloremque illum, soluta a voluptate, suscipit fuga velit neque, aliquam eos beatae quisquam animi. Officiis optio soluta minus placeat aperiam? Lorem ipsum dolor, sit amet consectetur adipisicing elit. Rem, provident voluptatem quae sed hic cum eum deserunt exercitationem mollitia architecto recusandae quas aliquid perspiciatis aut dignissimos ducimus minus reprehenderit vitae!l Lorem ipsum dolor sit amet consectetur adipisicing elit. Ad nulla nesciunt blanditiis perferendis iusto distinctio, magnam in? Officia rem debitis saepe sed modi quis aperiam similique optio dolores, necessitatibus commodi. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dignissimos, minima atque earum quos nihil architecto doloribus quisquam. Beatae culpa delectus consequatur veritatis eligendi, excepturi aliquid, dolores doloremque placeat amet id.lorem 1100 Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid explicabo nostrum, velit nemo repellendus quis eius, doloribus placeat recusandae assumenda iste dolorem, tempore aliquam enim? Distinctio, animi saepe! Alias, ipsum.lor Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure quaerat soluta ea ducimus magni tenetur vel voluptates fugiat deleniti? Est nam rem ratione pariatur facilis amet dolor, quae itaque odio! Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eos at animi nobis hic suscipit aut officiis repellat quis veniam accusamus corrupti odit fuga distinctio, fugiat quia quaerat pariatur voluptatum iste.</p>
+        </div>
+            <div class=" aboutimg ">
+                <img src=" about.jpg " class=" about-image ">
+            </div> -->
+            <!-- <div class=" name ">
+                <h3>Designer &amp; web developer</h3>
+            </div> -->
+        <!-- </div>
+
+    </section> -->
     <!-- Adding the js file  -->
-    <script src="script.js"></script>
+    <script src=" script.js "></script>
 </body>
 
 </html>

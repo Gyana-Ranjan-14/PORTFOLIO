@@ -31,9 +31,6 @@
         transition: 0.5s;
         font-family: "Pushster", cursive;
     }
-    #check:checked~.content {
-        margin-left: -73px;
-    }
 }
 
 @media (max-width: 1070px) {
@@ -62,15 +59,12 @@
 }
 
 @media (max-width: 997px) {
-    #check:checked~.content {
-        margin-left: -73px;
-    }
     .names {
         position: absolute;
         margin-top: 140px;
-        margin-left: 274px;
+        margin-left: 174px;
         color: aliceblue;
-        line-height: 97px;
+        line-height: 157px;
         text-transform: uppercase;
     }
     .names p {
@@ -78,27 +72,30 @@
         font-weight: 300;
     }
     .names h1 {
-        font-size: 45px;
+        font-size: 55px;
         margin-left: -2px;
         -webkit-text-stroke: 1px rgb(22, 22, 22);
         color: transparent;
     }
     .names h3 {
-        font-size: 26px;
+        font-size: 56px;
         font-weight: 500;
     }
 }
 
 @media (max-width: 890px) {
+    .sidebar {
+        width: 0px;
+    }
     .btns1 {
         display: none;
     }
     .names {
         position: absolute;
         margin-top: 140px;
-        margin-left: 268px;
+        margin-left: 128px;
         color: aliceblue;
-        line-height: 90px;
+        line-height: 130px;
         text-transform: uppercase;
     }
     .names p {
@@ -130,13 +127,10 @@
 }
 
 @media (max-width: 570px) {
-    #check:checked~.content {
-        margin-left: -23px;
-    }
     .names {
         position: absolute;
         margin-top: 160px;
-        margin-left: 150px;
+        margin-left: 60px;
         color: aliceblue;
         line-height: 85px;
         text-transform: uppercase;
@@ -183,7 +177,7 @@
     .names {
         position: absolute;
         margin-top: 140px;
-        margin-left: 90px;
+        margin-left: 50px;
         color: rgb(101, 183, 255);
         line-height: 95px;
         text-transform: uppercase;
