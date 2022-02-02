@@ -270,17 +270,17 @@ header {
 
 /* About us section Css */
 
-#about {
-    position: absolute;
-}
-
-.container {
-    position: absolute;
-}
-
-.container h2 {
-    margin-top: 70px;
+.container .aboutme {
+    margin-top: 150px;
     text-align: center;
+    font-weight: 600;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.abouthead {
+    margin-left: 19rem;
+    margin-top: 90px;
+    color: #22242a;
     font-weight: 600;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
@@ -288,14 +288,16 @@ header {
 .container p {
     margin-left: 300px;
     margin-right: 500px;
-    margin-top: 140px;
+    margin-top: 40px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .aboutimg img {
-    width: 400px;
+    width: 300px;
     float: right;
     margin-bottom: 32px;
-    margin-top: 92px;
+    margin-top: -99px;
     margin-right: 23px;
     border-radius: 80px;
 }
