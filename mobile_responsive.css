@@ -1,12 +1,6 @@
-/* Css for the upper nav menu (Button and name) */
-
-
 /* When the screen size is at this size  */
 
 @media (max-width: 1430px) {
-    #check:checked~.content {
-        margin-left: -113px;
-    }
     .names {
         position: absolute;
         margin-top: 160px;
@@ -15,9 +9,6 @@
         text-transform: uppercase;
     }
 }
-
-
-/* When the screen size is at this size  */
 
 @media (max-width: 1300px) {
     .btns1 {
@@ -31,12 +22,39 @@
         transition: 0.5s;
         font-family: "Pushster", cursive;
     }
+    .skilled .row {
+        width: 50%;
+        min-width: 590px;
+        position: relative;
+        transform: translate(-50%, -50%);
+        left: 58%;
+        top: 50%;
+        margin-top: -6rem;
+    }
+    .abouthead {
+        margin-left: 18rem;
+        margin-top: 130px;
+        color: #22242a;
+        font-weight: 600;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .container p {
+        margin-left: 280px;
+        margin-right: 360px;
+        text-align: left;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .aboutimg img {
+        width: 300px;
+        float: right;
+        margin-bottom: 32px;
+        margin-top: 25px;
+        margin-right: 23px;
+        border-radius: 80px;
+    }
 }
 
 @media (max-width: 1070px) {
-    #check:checked~.content {
-        margin-left: -73px;
-    }
     .btns1 {
         padding: 5px 17px;
         background: #4aa5b8;
@@ -59,7 +77,6 @@
     /* about us page */
     .container .aboutme {
         margin-top: 110px;
-        text-decoration: underline;
         text-align: center;
         font-weight: 600;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -88,12 +105,15 @@
 }
 
 @media (max-width: 997px) {
+    .sidebar {
+        width: 0px;
+    }
     .names {
         position: absolute;
         margin-top: 140px;
         margin-left: 174px;
         color: aliceblue;
-        line-height: 157px;
+        line-height: 107px;
         text-transform: uppercase;
     }
     .names p {
@@ -113,7 +133,6 @@
     /* about us page */
     .container .aboutme {
         margin-top: 110px;
-        text-decoration: underline;
         text-align: center;
         font-weight: 600;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -122,29 +141,57 @@
         margin-left: 1rem;
         margin-top: 29px;
         color: #22242a;
-        font-weight: 600;
+        font-weight: 400;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .container p {
         margin-left: 3px;
-        margin-right: 5px;
+        margin-right: 40px;
         text-align: center;
         margin-top: 40px;
         font-weight: 500;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .aboutimg img {
-        width: 350px;
+        width: 200px;
         margin-bottom: 32px;
-        margin-top: 59px;
+        margin-top: -39px;
         border-radius: 20px;
+    }
+    .skilled .text {
+        margin-left: 2px;
+        margin-right: 16px;
+        margin-top: 50px;
+        /* margin-bottom: 52px; */
+        font-weight: 500;
+        color: whitesmoke;
+        text-align: center;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+    .container .skillhead {
+        margin-left: 10px;
+        margin-top: 100px;
+        padding-top: 46px;
+        margin-bottom: 62px;
+        text-align: center;
+        font-weight: 600;
+        position: relative;
+        color: #5cf2fd;
+        font-size: 2.2em;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+    .skilled .row {
+        width: 50%;
+        min-width: 590px;
+        position: relative;
+        transform: translate(-50%, -50%);
+        left: 48%;
+        top: 50%;
+        margin-top: -6rem;
     }
 }
 
 @media (max-width: 890px) {
-    .sidebar {
-        width: 0px;
-    }
     .btns1 {
         display: none;
     }
@@ -173,7 +220,6 @@
     /* about us page */
     .container .aboutme {
         margin-top: 110px;
-        text-decoration: underline;
         text-align: center;
         font-weight: 600;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -189,15 +235,36 @@
         margin-left: 3px;
         margin-right: 10px;
         text-align: center;
-        margin-top: 70px;
+        margin-top: 20px;
         font-weight: 500;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .aboutimg img {
-        width: 300px;
+        width: 270px;
         margin-bottom: 32px;
-        margin-top: 59px;
+        margin-top: 19px;
         border-radius: 20px;
+    }
+    .skilled .row {
+        width: 50%;
+        min-width: 590px;
+        position: relative;
+        transform: translate(-50%, -50%);
+        left: 43.5%;
+        top: 50%;
+        margin-top: -6rem;
+    }
+}
+
+@media (max-width: 676px) {
+    .skilled .row {
+        width: 30%;
+        min-width: 520px;
+        position: relative;
+        transform: translate(-50%, -50%);
+        margin-left: 1px;
+        top: 50%;
+        margin-top: -6rem;
     }
 }
 
@@ -208,37 +275,43 @@
         color: transparent;
         -webkit-text-stroke: 1px #fff;
     }
-    #check:checked~.content {
-        margin-left: -73px;
-    }
     /* about us page */
     .container .aboutme {
         margin-top: 110px;
-        text-decoration: underline;
         text-align: center;
         font-weight: 600;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .abouthead {
         margin-left: 1rem;
-        margin-top: 29px;
+        margin-top: 55px;
         color: #22242a;
         font-weight: 600;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .container p {
         margin-left: 3px;
-        margin-right: 5px;
+        margin-right: 15px;
         text-align: center;
-        margin-top: 40px;
+        margin-top: 20px;
         font-weight: 500;
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .aboutimg img {
-        width: 350px;
+        width: 200px;
+        margin-left: 10px;
         margin-bottom: 32px;
-        margin-top: 59px;
+        margin-top: 20px;
         border-radius: 20px;
+    }
+    .skilled .row {
+        width: 30%;
+        min-width: 470px;
+        position: relative;
+        transform: translate(-50%, -50%);
+        margin-left: 1px;
+        top: 50%;
+        margin-top: -6rem;
     }
 }
 
@@ -283,15 +356,14 @@
     /* about us page */
     .container .aboutme {
         margin-top: 110px;
-        text-decoration: underline;
         text-align: center;
         font-weight: 600;
         font-family: Georgia, 'Times New Roman', Times, serif;
     }
     .abouthead {
-        margin-left: 1rem;
-        margin-top: 59px;
-        font-size: 20px;
+        margin-left: 1px;
+        margin-top: 69px;
+        font-size: 18px;
         color: #22242a;
         font-weight: 600;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -305,10 +377,38 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .aboutimg img {
-        width: 200px;
+        width: 180px;
         margin-bottom: 32px;
-        margin-top: 59px;
+        margin-top: 29px;
         border-radius: 20px;
+    }
+    .skilled .row {
+        width: 30%;
+        min-width: 370px;
+        position: relative;
+        transform: translate(-50%, -50%);
+        margin-left: 1px;
+        top: 46%;
+        margin-top: -6rem;
+    }
+}
+
+@media (max-width: 490px) {
+    .skilled .row {
+        width: 30%;
+        min-width: 290px;
+        position: relative;
+        transform: translate(-50%, -50%);
+        margin-left: 1px;
+        top: 46%;
+        margin-top: -6rem;
+    }
+    .skilled .item-text {
+        display: flex;
+        justify-content: flex-start;
+        font-weight: 600;
+        font-size: 1rem;
+        position: relative;
     }
 }
 
@@ -343,7 +443,6 @@
     /* about us page */
     .container .aboutme {
         margin-top: 110px;
-        text-decoration: underline;
         text-align: center;
         font-weight: 600;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -364,10 +463,20 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .aboutimg img {
-        width: 350px;
+        width: 355px;
         margin-bottom: 32px;
         margin-top: 59px;
+        margin-left: 2px;
         border-radius: 20px;
+    }
+    .skilled .row {
+        width: 30%;
+        min-width: 220px;
+        position: relative;
+        transform: translate(-50%, -50%);
+        margin-left: -10px;
+        top: 46%;
+        margin-top: -6rem;
     }
 }
 
@@ -409,7 +518,6 @@
     /* about us page */
     .container .aboutme {
         margin-top: 110px;
-        text-decoration: underline;
         text-align: center;
         font-weight: 600;
         font-family: Georgia, 'Times New Roman', Times, serif;
@@ -430,9 +538,26 @@
         font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     }
     .aboutimg img {
-        width: 350px;
+        width: 275px;
         margin-bottom: 32px;
         margin-top: 59px;
+        margin-left: 2px;
         border-radius: 20px;
+    }
+    .skilled .row {
+        width: 30%;
+        min-width: 180px;
+        position: relative;
+        transform: translate(-50%, -50%);
+        margin-left: -20px;
+        top: 46%;
+        margin-top: -6rem;
+    }
+    .skilled .item-text {
+        display: flex;
+        justify-content: flex-start;
+        font-weight: 600;
+        font-size: 12px;
+        position: relative;
     }
 }

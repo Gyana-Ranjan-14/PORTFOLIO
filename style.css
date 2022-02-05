@@ -1,6 +1,7 @@
 body {
     margin: 0;
     padding: 0;
+    background: #f0f0f0;
 }
 
 
@@ -23,6 +24,7 @@ header {
     color: #fff;
     margin: 0;
     font-size: 28px;
+    font-weight: bold;
     font-family: "Libre Baskerville", serif;
     left: 90px;
 }
@@ -217,6 +219,7 @@ header {
 .names h1 {
     font-size: 55px;
     margin-left: -10px;
+    margin-top: 10px;
     font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     background: -webkit-linear-gradient(rgb(30, 164, 168), rgb(71, 218, 161));
     -webkit-background-clip: text;
@@ -271,15 +274,41 @@ header {
 /* About us section Css */
 
 .container .aboutme {
-    margin-top: 150px;
+    margin-top: 100px;
     text-align: center;
     font-weight: 600;
+    position: relative;
+    color: #3a6cf4;
+    font-size: 2.2em;
     font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.aboutme::before {
+    content: '';
+    position: absolute;
+    top: 56px;
+    left: 50%;
+    width: 140px;
+    height: 4px;
+    background: #3a6cf4;
+    transform: translateX(-50%);
+}
+
+.aboutme::after {
+    content: '';
+    position: absolute;
+    top: 50px;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #3a6cf4;
+    transform: translateX(-50%);
 }
 
 .abouthead {
     margin-left: 19rem;
-    margin-top: 90px;
+    margin-top: 140px;
     color: #22242a;
     font-weight: 600;
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -287,9 +316,8 @@ header {
 
 .container p {
     margin-left: 300px;
-    margin-right: 500px;
-    margin-top: 40px;
-    font-weight: 500;
+    margin-right: 400px;
+    text-align: center;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
@@ -297,7 +325,181 @@ header {
     width: 300px;
     float: right;
     margin-bottom: 32px;
-    margin-top: -99px;
-    margin-right: 23px;
-    border-radius: 80px;
+    margin-top: -90px;
+    margin-right: 13px;
+    border-radius: 30px;
 }
+
+
+/* end of aboutus css */
+
+
+/* skill section start */
+
+.skilled .text {
+    margin-left: 300px;
+    margin-right: 60px;
+    margin-top: 50px;
+    /* margin-bottom: 52px; */
+    font-weight: 500;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.skilled {
+    background: #101320;
+    height: 65rem;
+}
+
+.container .skillhead {
+    margin-left: 200px;
+    margin-top: 200px;
+    padding-top: 46px;
+    margin-bottom: 62px;
+    text-align: center;
+    font-weight: 600;
+    position: relative;
+    color: #5cf2fd;
+    font-size: 2.2em;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.skillhead::before {
+    content: '';
+    position: absolute;
+    top: 87px;
+    left: 50%;
+    width: 165px;
+    height: 4px;
+    background: #3ae8f4;
+    transform: translateX(-50%);
+}
+
+.skillhead::after {
+    content: '';
+    position: absolute;
+    top: 83px;
+    left: 50%;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: #3af4db;
+    transform: translateX(-50%);
+}
+
+.skillbar {
+    width: 100%;
+    padding: 40px 40px 50px;
+    border: 2px solid rgba(255, 255, 255, 0.06);
+    border-radius: 10px;
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.2);
+    backdrop-filter: blur(10px);
+}
+
+.skillbar h2 {
+    letter-spacing: 2px;
+    text-align: center;
+    font-size: 33px;
+    font-weight: bold;
+    color: whitesmoke;
+}
+
+.skilled .row {
+    width: 50%;
+    min-width: 590px;
+    position: relative;
+    transform: translate(-50%, -50%);
+    left: 55%;
+    top: 50%;
+    margin-top: -6rem;
+}
+
+.skilled .item {
+    padding: 0.5rem 0;
+    margin: 0.3rem 0;
+}
+
+.skilled .item-text {
+    display: flex;
+    justify-content: flex-start;
+    font-weight: 600;
+    font-size: 1.3rem;
+    position: relative;
+}
+
+.item-text span {
+    color: white;
+}
+
+.skilled .item-text span:last-child {
+    position: absolute;
+    color: wheat;
+}
+
+.skilled .item-text .w-95 {
+    margin-left: 90%;
+}
+
+.skilled .item-text .w-85 {
+    margin-left: 80%;
+}
+
+.skilled .item-text .w-93 {
+    margin-left: 85%;
+}
+
+.skilled .item-text .w-80 {
+    margin-left: 75%;
+}
+
+.skilled .item-text .w-60 {
+    margin-left: 55%;
+}
+
+.skilled .item-text .w-96 {
+    margin-left: 91%;
+}
+
+.progress {
+    margin: 0.8rem 0;
+    border-radius: 10px;
+    height: 13px;
+    width: 100%;
+    background-color: rgb(199, 199, 199);
+    overflow: hidden;
+}
+
+.progress-bar {
+    background: rgb(78, 184, 149);
+    height: 100%;
+    border-top-right-radius: 2px;
+    border-bottom-right-radius: 2px;
+}
+
+.progress-bar.w-95 {
+    width: 95%;
+}
+
+.progress-bar.w-85 {
+    width: 85%;
+}
+
+.progress-bar.w-93 {
+    width: 93%;
+}
+
+.progress-bar.w-80 {
+    width: 80%;
+}
+
+.progress-bar.w-60 {
+    width: 60%;
+}
+
+.progress-bar.w-96 {
+    width: 96%;
+}
+
+
+/* end skill section */
