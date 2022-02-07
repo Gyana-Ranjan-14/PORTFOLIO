@@ -40,4 +40,9 @@ btn.addEventListener('click', function() {
         }
     }
     current += 3;
+
+    // when the certificates will end
+    if (current >= certify.length) {
+        event.target.style.display = 'none';
+    }
 })

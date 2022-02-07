@@ -708,22 +708,6 @@ header {
     display: block;
 }
 
-.certificates:nth-child(7) {
-    display: block;
-}
-
-.certificates:nth-child(8) {
-    display: block;
-}
-
-.certificates:nth-child(9) {
-    display: block;
-}
-
-.certificates:nth-child(10) {
-    display: block;
-}
-
 .gallery .certificates {
     padding: 7px;
     width: calc(100% / 6);
