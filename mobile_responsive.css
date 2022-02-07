@@ -36,13 +36,13 @@
         margin-top: 130px;
         color: #22242a;
         font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .container p {
         margin-left: 280px;
         margin-right: 360px;
         text-align: left;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
     .aboutimg img {
         width: 300px;
@@ -79,14 +79,14 @@
         margin-top: 110px;
         text-align: center;
         font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .abouthead {
         margin-left: 11.4em;
         margin-top: 99px;
         color: #22242a;
         font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .container p {
         margin-left: 17rem;
@@ -94,13 +94,25 @@
         text-align: left;
         margin-top: 40px;
         font-weight: 500;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
     .aboutimg img {
         width: 250px;
         margin-bottom: 32px;
         margin-top: 59px;
         border-radius: 20px;
+    }
+    .certi-wrap {
+        /* box-sizing: border-box; */
+        /* background: #040b14; */
+        margin: 100px auto;
+        display: flex;
+        margin-left: 13rem;
+        justify-content: center;
+    }
+    .gallery .certificates {
+        padding: 7px;
+        width: calc(100% / 3);
     }
 }
 
@@ -135,14 +147,14 @@
         margin-top: 110px;
         text-align: center;
         font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .abouthead {
         margin-left: 1rem;
         margin-top: 29px;
         color: #22242a;
         font-weight: 400;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .container p {
         margin-left: 3px;
@@ -150,7 +162,7 @@
         text-align: center;
         margin-top: 40px;
         font-weight: 500;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
     .aboutimg img {
         width: 200px;
@@ -166,7 +178,7 @@
         font-weight: 500;
         color: whitesmoke;
         text-align: center;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
     .container .skillhead {
         margin-left: 10px;
@@ -178,7 +190,7 @@
         position: relative;
         color: #5cf2fd;
         font-size: 2.2em;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .skilled .row {
         width: 50%;
@@ -188,6 +200,22 @@
         left: 48%;
         top: 50%;
         margin-top: -6rem;
+    }
+    .certi-wrap {
+        margin: 100px auto;
+        display: flex;
+        justify-content: center;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 5rem;
+        margin-top: 30px;
+    }
+    .gallery .certificates {
+        padding: 7px;
+        width: calc(100% / 4);
     }
 }
 
@@ -222,14 +250,14 @@
         margin-top: 110px;
         text-align: center;
         font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .abouthead {
         margin-left: 1rem;
         margin-top: 129px;
         color: #22242a;
         font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .container p {
         margin-left: 3px;
@@ -237,7 +265,7 @@
         text-align: center;
         margin-top: 20px;
         font-weight: 500;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
     .aboutimg img {
         width: 270px;
@@ -253,6 +281,27 @@
         left: 43.5%;
         top: 50%;
         margin-top: -6rem;
+    }
+    .certi-items .item i {
+        margin-right: 10px;
+    }
+    .certi-items .item {
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    .certi-wrap .certi-items {
+        max-width: 600px;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0rem;
+        margin-top: 30px;
+    }
+    .gallery .certificates {
+        padding: 7px;
+        width: calc(100% / 3);
     }
 }
 
@@ -280,14 +329,14 @@
         margin-top: 110px;
         text-align: center;
         font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .abouthead {
         margin-left: 1rem;
         margin-top: 55px;
         color: #22242a;
         font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .container p {
         margin-left: 3px;
@@ -295,7 +344,7 @@
         text-align: center;
         margin-top: 20px;
         font-weight: 500;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
     .aboutimg img {
         width: 200px;
@@ -312,6 +361,24 @@
         margin-left: 1px;
         top: 50%;
         margin-top: -6rem;
+    }
+    .certi-items .item i {
+        margin-right: 10px;
+    }
+    .certi-items .item {
+        font-size: 2rem;
+        cursor: pointer;
+    }
+    .gallery {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        margin-left: 0rem;
+        margin-top: 30px;
+    }
+    .gallery .certificates {
+        padding: 7px;
+        width: calc(100% / 3);
     }
 }
 
@@ -358,7 +425,7 @@
         margin-top: 110px;
         text-align: center;
         font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .abouthead {
         margin-left: 1px;
@@ -366,7 +433,7 @@
         font-size: 18px;
         color: #22242a;
         font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .container p {
         margin-left: 1px;
@@ -374,7 +441,7 @@
         margin-top: 40px;
         font-size: 12px;
         font-weight: 500;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
     .aboutimg img {
         width: 180px;
@@ -390,6 +457,24 @@
         margin-left: 1px;
         top: 46%;
         margin-top: -6rem;
+    }
+    .certificates hr {
+        width: 13rem;
+        margin-top: -1rem;
+    }
+    .certi-wrap {
+        margin: 30px auto;
+    }
+    .certi-wrap .certi-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .certi-items span {
+        margin: 5px;
+    }
+    .gallery .certificates {
+        margin-top: 3rem;
+        width: 90%;
     }
 }
 
@@ -445,14 +530,14 @@
         margin-top: 110px;
         text-align: center;
         font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .abouthead {
         margin-left: 1rem;
         margin-top: 29px;
         color: #22242a;
         font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .container p {
         margin-left: 3px;
@@ -460,7 +545,7 @@
         text-align: center;
         margin-top: 40px;
         font-weight: 500;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
     .aboutimg img {
         width: 355px;
@@ -520,14 +605,14 @@
         margin-top: 110px;
         text-align: center;
         font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .abouthead {
         margin-left: 0px;
         margin-top: 29px;
         color: #22242a;
         font-weight: 600;
-        font-family: Georgia, 'Times New Roman', Times, serif;
+        font-family: Georgia, "Times New Roman", Times, serif;
     }
     .container p {
         margin-left: 3px;
@@ -535,7 +620,7 @@
         text-align: center;
         margin-top: 40px;
         font-weight: 500;
-        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
     }
     .aboutimg img {
         width: 275px;
@@ -559,5 +644,9 @@
         font-weight: 600;
         font-size: 12px;
         position: relative;
+    }
+    .gallery .certificates {
+        margin-top: 3rem;
+        width: 90%;
     }
 }

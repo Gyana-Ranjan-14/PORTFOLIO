@@ -27,3 +27,17 @@ var typed = new Typed(".typing", {
     backSpeed: 60,
     loop: true
 });
+
+
+// js for certificate section
+var certify = document.querySelectorAll('.certificates');
+var btn = document.querySelector('.load-more');
+var current = 3;
+btn.addEventListener('click', function() {
+    for (var i = current; i < current + 3; i++) {
+        if (certify[i]) {
+            certify[i].style.display = 'block';
+        }
+    }
+    current += 3;
+})

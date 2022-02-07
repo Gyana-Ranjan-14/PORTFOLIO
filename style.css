@@ -4,6 +4,10 @@ body {
     background: #f0f0f0;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 
 /* Start of upper nav menu css  */
 
@@ -503,3 +507,263 @@ header {
 
 
 /* end skill section */
+
+
+/* education section  */
+
+.public-edu {
+    height: 430px;
+    width: 3px;
+    background: rgb(4, 134, 151);
+}
+
+.public-edu-diagram {
+    display: flex;
+    height: 420px;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: -6px;
+}
+
+.public-edu-diagram-dot {
+    background: rgb(43, 88, 90);
+    width: 15px;
+    height: 15px;
+    border-radius: 200px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.public-edu-diagram-dot:hover {
+    width: 20px;
+    height: 20px;
+    margin-left: -2px;
+}
+
+
+/*education*/
+
+.education {
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 700px;
+}
+
+.edu-heading {
+    font-size: 1.9rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: rgb(56, 77, 87);
+}
+
+.edu-heading i {
+    margin-right: 10px;
+}
+
+.edu-subheading {
+    font-size: 0.98rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.public-edu {
+    margin-top: 80px;
+    margin-bottom: 50px;
+}
+
+.edu-layout {
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    vertical-align: middle;
+    margin-top: 180px;
+    z-index: -10;
+}
+
+.edu-layout-1,
+.edu-layout-2 {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+}
+
+.edu-layout-1 {
+    margin-top: 10px;
+}
+
+.edu-layout-2 {
+    margin-top: 140px;
+}
+
+.edu-des-collage {
+    width: 90%;
+    margin-left: 5%;
+}
+
+.des2 {
+    margin-top: 90px;
+}
+
+.des4 {
+    margin-top: 130px;
+}
+
+.edu-deg {
+    font-size: 1.8rem;
+    text-align: center;
+}
+
+.edu-collage {
+    font-size: 0.925rem;
+}
+
+.edu-add {
+    font-size: 0.7rem;
+}
+
+.edu-yr {
+    font-size: 0.9rem;
+}
+
+.edu-collage,
+.edu-add,
+.edu-yr {
+    text-align: center;
+}
+
+
+/* certificate section */
+
+.certificateed hr {
+    width: 13rem;
+    margin-top: -4rem;
+}
+
+.certi-wrap {
+    margin: 100px auto;
+    display: flex;
+    justify-content: center;
+}
+
+.certi-wrap .certi-items {
+    display: flex;
+    max-width: 720px;
+    width: 100%;
+    justify-content: center;
+}
+
+.certi-items .item i {
+    margin-right: 10px;
+}
+
+.certi-items .item {
+    font-size: 2rem;
+    cursor: pointer;
+}
+
+
+/* certificate gallery sectioin */
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin-left: 15rem;
+    margin-top: 30px;
+}
+
+
+/* remove all certify due to load when click on load more */
+
+.certificates {
+    display: none;
+}
+
+
+/* this is for showing certificates before loadmore */
+
+.certificates:nth-child(1) {
+    display: block;
+}
+
+.certificates:nth-child(2) {
+    display: block;
+}
+
+.certificates:nth-child(3) {
+    display: block;
+}
+
+.certificates:nth-child(4) {
+    display: block;
+}
+
+.certificates:nth-child(5) {
+    display: block;
+}
+
+.certificates:nth-child(6) {
+    display: block;
+}
+
+.certificates:nth-child(7) {
+    display: block;
+}
+
+.certificates:nth-child(8) {
+    display: block;
+}
+
+.certificates:nth-child(9) {
+    display: block;
+}
+
+.certificates:nth-child(10) {
+    display: block;
+}
+
+.gallery .certificates {
+    padding: 7px;
+    width: calc(100% / 6);
+}
+
+.gallery .certificates span {
+    display: flex;
+    width: 100%;
+    overflow: hidden;
+}
+
+.gallery .certificates img {
+    width: 100%;
+    vertical-align: middle;
+    transition: all 0.3s ease;
+}
+
+.gallery .certificates:hover img {
+    transform: scale(1.1);
+}
+
+
+/* end of certificates before loadmore */
+
+
+/* load more button */
+
+.load-more {
+    padding: .5rem 1rem;
+    background: #3498dbde;
+    color: white;
+    display: block;
+    font-size: 1.3rem;
+    justify-content: center;
+    margin: 3rem auto;
+    cursor: pointer;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+
+
+/* end of certificate section */
