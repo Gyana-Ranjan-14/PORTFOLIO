@@ -480,11 +480,11 @@
 
 @media (max-width: 490px) {
     .skilled .row {
-        width: 30%;
+        width: 28%;
         min-width: 290px;
         position: relative;
         transform: translate(-50%, -50%);
-        margin-left: 1px;
+        margin-left: -6px;
         top: 46%;
         margin-top: -6rem;
     }
@@ -494,6 +494,24 @@
         font-weight: 600;
         font-size: 1rem;
         position: relative;
+    }
+    .certificateed hr {
+        width: 8rem;
+        margin-top: -1rem;
+    }
+    .certi-wrap {
+        margin: 28px auto;
+    }
+    .certi-wrap .certi-items {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .certi-items span {
+        margin: 3px;
+    }
+    .gallery .certificates {
+        margin-top: 3rem;
+        width: 88%;
     }
 }
 

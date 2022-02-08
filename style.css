@@ -649,8 +649,6 @@ header {
 
 .certi-wrap .certi-items {
     display: flex;
-    max-width: 720px;
-    width: 100%;
     justify-content: center;
 }
 
@@ -659,7 +657,7 @@ header {
 }
 
 .certi-items .item {
-    font-size: 2rem;
+    font-size: 1rem;
     cursor: pointer;
 }
 
