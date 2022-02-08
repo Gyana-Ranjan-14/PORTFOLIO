@@ -253,7 +253,7 @@ header {
     font-size: 20px;
     cursor: pointer;
     margin: 7px;
-    font-family: 'Times New Roman', Times, serif;
+    font-family: "Times New Roman", Times, serif;
 }
 
 .main-btn:hover {
@@ -284,11 +284,11 @@ header {
     position: relative;
     color: #3a6cf4;
     font-size: 2.2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .aboutme::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 56px;
     left: 50%;
@@ -299,7 +299,7 @@ header {
 }
 
 .aboutme::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 50px;
     left: 50%;
@@ -315,14 +315,14 @@ header {
     margin-top: 140px;
     color: #22242a;
     font-weight: 600;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .container p {
     margin-left: 300px;
     margin-right: 400px;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .aboutimg img {
@@ -348,7 +348,7 @@ header {
     font-weight: 500;
     color: whitesmoke;
     text-align: center;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
 }
 
 .skilled {
@@ -366,11 +366,11 @@ header {
     position: relative;
     color: #5cf2fd;
     font-size: 2.2em;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: Georgia, "Times New Roman", Times, serif;
 }
 
 .skillhead::before {
-    content: '';
+    content: "";
     position: absolute;
     top: 87px;
     left: 50%;
@@ -381,7 +381,7 @@ header {
 }
 
 .skillhead::after {
-    content: '';
+    content: "";
     position: absolute;
     top: 83px;
     left: 50%;
@@ -553,7 +553,7 @@ header {
 
 .edu-heading {
     font-size: 1.9rem;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
     color: rgb(56, 77, 87);
 }
 
@@ -657,7 +657,7 @@ header {
 }
 
 .certi-items .item {
-    font-size: 1rem;
+    font-size: 2rem;
     cursor: pointer;
 }
 
@@ -706,6 +706,14 @@ header {
     display: block;
 }
 
+.certificates:nth-child(7) {
+    display: block;
+}
+
+.certificates:nth-child(8) {
+    display: block;
+}
+
 .gallery .certificates {
     padding: 7px;
     width: calc(100% / 6);
@@ -734,13 +742,15 @@ header {
 /* load more button */
 
 .load-more {
-    padding: .5rem 1rem;
+    padding: 0.5rem 2rem;
     background: #3498dbde;
     color: white;
     display: block;
     font-size: 1.3rem;
     justify-content: center;
-    margin: 3rem auto;
+    align-items: center;
+    margin: 5rem auto;
+    margin-bottom: 15rem;
     cursor: pointer;
     outline: none;
     border: none;
@@ -749,3 +759,108 @@ header {
 
 
 /* end of certificate section */
+
+
+/* project section css start */
+
+.project-sec .project-head {
+    text-align: center;
+}
+
+.project-sec .project-head hr {
+    width: 13rem;
+}
+
+.project-head {
+    font-size: 1.9rem;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: rgb(56, 77, 87);
+}
+
+.project-head i {
+    margin-right: 10px;
+}
+
+.project-sec {
+    margin-top: 100px;
+    align-items: center;
+    height: 100%;
+}
+
+.card {
+    width: 23%;
+    min-width: 200px;
+    height: auto;
+    margin: 14px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px #aaa;
+    cursor: pointer;
+}
+
+.card:hover .project-img {
+    transition: 0.8s ease-in-out;
+    transform: scale(1.1);
+    box-shadow: 0 5px 10px #aaa;
+}
+
+.project-img {
+    width: 100%;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+    border-radius: 12px
+}
+
+.ihg {
+    margin: 0;
+    padding: 9px;
+    font-size: 14px;
+    font-weight: 200;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.all-project {
+    margin-top: 5rem;
+    margin-left: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
+/* project btn */
+
+.project-btn-grp a {
+    border: 2px solid rgb(79, 184, 184);
+    margin: 5px 5px;
+    border-radius: 8px;
+}
+
+.gitrepo-project {
+    text-decoration: none;
+    font-size: 14px;
+    float: left;
+    padding: 16px 16px;
+}
+
+.live-project {
+    text-decoration: none;
+    font-size: 15px;
+    float: right;
+    padding: 16px 16px;
+}
+
+.gitrepo-project:hover {
+    background: #000000c9;
+    border: none;
+    transition: 0.4s ease-in-out;
+    color: rgb(78, 255, 217);
+}
+
+.live-project:hover {
+    background: #000000c9;
+    border: none;
+    transition: 0.4s ease-in-out;
+    color: rgb(78, 255, 217);
+}

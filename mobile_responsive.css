@@ -52,6 +52,16 @@
         margin-right: 23px;
         border-radius: 80px;
     }
+    .gitrepo-project {
+        font-size: 14px;
+        float: left;
+        padding: 10px 10px;
+    }
+    .live-project {
+        font-size: 15px;
+        float: right;
+        padding: 10px 10px;
+    }
 }
 
 @media (max-width: 1070px) {
@@ -113,6 +123,23 @@
     .gallery .certificates {
         padding: 7px;
         width: calc(100% / 3);
+    }
+    .all-project {
+        margin-top: 5rem;
+        margin-left: 13rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .gitrepo-project {
+        font-size: 14px;
+        float: left;
+        padding: 6px 6px;
+    }
+    .live-project {
+        font-size: 15px;
+        float: right;
+        padding: 6px 6px;
     }
 }
 
@@ -216,6 +243,13 @@
     .gallery .certificates {
         padding: 7px;
         width: calc(100% / 4);
+    }
+    .all-project {
+        margin-top: 5rem;
+        margin-left: 0rem;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
     }
 }
 
@@ -512,6 +546,15 @@
     .gallery .certificates {
         margin-top: 3rem;
         width: 88%;
+    }
+    .card {
+        width: 90%;
+        min-width: 200px;
+        height: auto;
+        margin: 14px;
+        border-radius: 8px;
+        box-shadow: 0 2px 5px #aaa;
+        cursor: pointer;
     }
 }
 
