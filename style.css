@@ -864,3 +864,150 @@ header {
     transition: 0.4s ease-in-out;
     color: rgb(78, 255, 217);
 }
+
+
+/* Contact us css */
+
+.contact-bg {
+    height: 40vh;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.contact-bg h2 {
+    font-size: 1.3rem;
+    text-transform: uppercase;
+    padding: 0.4rem 0;
+    letter-spacing: 4px;
+}
+
+.line div {
+    margin: 0 0.2rem;
+}
+
+.line div:nth-child(1),
+.line div:nth-child(3) {
+    height: 3px;
+    width: 70px;
+    background: rgb(255, 9, 91);
+    border-radius: 5px;
+}
+
+.line {
+    display: flex;
+    align-items: center;
+}
+
+.line div:nth-child(2) {
+    width: 10px;
+    height: 10px;
+    background: rgb(255, 9, 91);
+    border-radius: 50%;
+}
+
+.cont-text {
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+
+/* contact body staets */
+
+.contact-body {
+    max-width: 1320px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.contact-info {
+    margin: 2rem 0;
+    text-align: center;
+    padding: 2rem 0;
+}
+
+.contact-info span {
+    display: block;
+}
+
+.contact-info div {
+    margin: 0.8rem 0;
+    padding: 1rem;
+}
+
+.contact-info span .fas {
+    font-size: 2rem;
+    padding-bottom: 0.9rem;
+    color: #3a6cf4;
+}
+
+.contact-info div span:nth-child(2) {
+    font-weight: 500;
+    font-size: 1.1rem;
+}
+
+.contact-info .cont-text {
+    padding-top: 0.4rem;
+}
+
+.contact-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    align-items: center;
+    margin-left: 12rem;
+}
+
+.contact-form form {
+    padding-bottom: 1rem;
+}
+
+.form-control {
+    width: 100%;
+    border: 1.5px solid rgb(226, 226, 226);
+    border-radius: 5px;
+    padding: 0.4rem;
+    margin: 0.6rem 0;
+    font-family: 'open-sans' sans-serif;
+    font-size: 1rem;
+    outline: 0;
+}
+
+.contact-form form div {
+    display: grid;
+    align-items: center;
+    text-align: center;
+    grid-template-columns: repeat(2, 1fr);
+    column-gap: 2.6rem;
+}
+
+.send-btn {
+    font-family: 'open-sans', sans-serif;
+    font-size: 1rem;
+    text-transform: uppercase;
+    color: whitesmoke;
+    background: rgb(255, 58, 124);
+    border: none;
+    border-radius: 5px;
+    padding: 0.7rem 1.5rem;
+    cursor: pointer;
+    transition: all 0.6s ease;
+}
+
+.send-btn:hover {
+    opacity: 0.8;
+}
+
+.contact-form>div img {
+    width: 85%;
+}
+
+.contact-form>div img {
+    width: 85%;
+}
+
+.contact-form>div {
+    margin: 0 auto;
+    text-align: center;
+}

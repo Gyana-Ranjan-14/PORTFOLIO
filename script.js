@@ -46,3 +46,19 @@ btn.addEventListener('click', function() {
         event.target.style.display = 'none';
     }
 })
+
+// js for send email
+function sendmail() {
+    // Password: "10BB648675097F0F87A25E25A3FDFA4EA52A",
+    Email.send({
+        SecureToken: "6c468d4e-fdc3-4a73-bf75-3dcb3d3239c4",
+        To: 'gyanabarik794@gmail.com',
+        From: document.getElementById('mail').value,
+        Subject: "Message From Your Portfolio ",
+        Body: "Name: " + document.getElementById('name').value +
+            "<br> Email: " + document.getElementById("mail").value +
+            "<br> Message: " + document.getElementById("query").value
+    }).then(
+        message => alert(message)
+    );
+}
