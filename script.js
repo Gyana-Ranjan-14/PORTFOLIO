@@ -82,15 +82,12 @@ topbtn.addEventListener('click', () => {
     document.documentElement.scrollTop = 0;
 })
 
-// mail
-function sendmail(params) {
-    var temp = {
-        from_name: document.getElementById("firname").value,
-        to_name: document.getElementById("youmail").value,
-        message: document.getElementById("query").value
-    };
-    emailjs.send('service_lovxnv4', 'template_ifl1g7e', temp)
-        .then(function(res) {
-            console.log("success", res.status);
-        })
-}
+// thanks message after contact form submit
+const notified = document.querySelector('.take-info');
+const contact_btn = document.querySelector('.send-btn');
+const give_info = document.querySelector('.give-info');
+contact_btn.addEventListener('click', () => {
+    notified.style.display = "none";
+    give_info.style.display = "block";
+
+})
