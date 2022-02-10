@@ -62,3 +62,35 @@ function sendmail() {
         message => alert(message)
     );
 }
+// scroll top
+const topbtn = document.getElementById('sc-top');
+
+// when user scroll down 100px from the top of the document , shows the button
+
+window.onscroll = function() { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 100 || document.documentElement.scrollTop) {
+        topbtn.style.display = "block";
+    } else {
+        topbtn.style.display = "none";
+    }
+}
+
+topbtn.addEventListener('click', () => {
+    document.body.scrollTop = 0;
+    document.documentElement.scrollTop = 0;
+})
+
+// mail
+function sendmail(params) {
+    var temp = {
+        from_name: document.getElementById("firname").value,
+        to_name: document.getElementById("youmail").value,
+        message: document.getElementById("query").value
+    };
+    emailjs.send('service_lovxnv4', 'template_ifl1g7e', temp)
+        .then(function(res) {
+            console.log("success", res.status);
+        })
+}
