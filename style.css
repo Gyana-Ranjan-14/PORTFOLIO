@@ -1,7 +1,9 @@
 body {
+    overflow-x: hidden;
     margin: 0;
     padding: 0;
     background: #f0f0f0;
+    position: relative;
 }
 
 html {
@@ -790,6 +792,17 @@ header {
 
 .project-head i {
     margin-right: 10px;
+}
+
+.fil-menu .btnfill {
+    flex-wrap: wrap;
+    cursor: pointer;
+    font-size: 1.2rem;
+    border-radius: 4px;
+    padding: 10px 10px;
+    margin: 0px 12px;
+    background: #000000;
+    color: #34dbb1;
 }
 
 .project-sec {
