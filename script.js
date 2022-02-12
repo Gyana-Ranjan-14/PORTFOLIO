@@ -73,30 +73,6 @@ contact_btn.addEventListener('click', () => {
 
 })
 
-// for filter of projects
-// const filterContainer = document.querySelector(".fil-menu"),
-//     galleryItems = document.querySelectorAll(".card");
-
-// filterContainer.addEventListener("click", (event) => {
-//     if (event.target.classList.contains("btnfill")) {
-//         // deactivate existing active 'filter-item'
-//         filterContainer.querySelector(".active").classList.remove("active");
-//         // activate new 'filter-item'
-//         event.target.classList.add("active");
-//         const filterValue = event.target.getAttribute("data-filter");
-//         galleryItems.forEach((item) => {
-//             if (item.classList.contains(filterValue) || filterValue === 'All') {
-//                 item.classList.remove("hide");
-//                 item.classList.add("show");
-//             } else {
-//                 item.classList.remove("show");
-//                 item.classList.add("hide");
-//             }
-//         });
-//     }
-// });
-
-
 
 // scroll top
 const topbtn = document.getElementById('sc-top');
