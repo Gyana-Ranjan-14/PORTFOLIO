@@ -15,7 +15,7 @@ html {
 
 header {
     position: fixed;
-    background: #22242a;
+    background: #121727;
     padding: 16px;
     width: 100%;
     height: 30px;
@@ -69,7 +69,7 @@ header {
 /* start of Css for vertical nav or side menu bar */
 
 .sidebar {
-    background: #040b14;
+    background: #07121f;
     margin-top: 61px;
     padding-top: 30px;
     position: fixed;
