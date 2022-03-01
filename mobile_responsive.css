@@ -263,6 +263,9 @@
 }
 
 @media (max-width: 890px) {
+    .imstudy {
+        display: none;
+    }
     .btns1 {
         display: none;
     }

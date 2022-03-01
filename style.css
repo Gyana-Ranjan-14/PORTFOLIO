@@ -341,6 +341,10 @@ header {
     border-radius: 30px;
 }
 
+.aboutimg img:hover {
+    cursor: pointer;
+}
+
 
 /* end of aboutus css */
 
