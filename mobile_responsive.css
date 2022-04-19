@@ -370,7 +370,7 @@
 @media screen and (min-width: 768px) {
     .contact-info {
         display: grid;
-        margin-left: 3em;
+        margin-left: 2em;
         grid-template-columns: repeat(3, 1fr);
     }
 }
@@ -689,6 +689,9 @@
         margin-left: -10px;
         top: 46%;
         margin-top: -6rem;
+    }
+    .education {
+        padding-right: 30px;
     }
 }
 

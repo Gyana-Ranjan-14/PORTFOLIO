@@ -33,6 +33,7 @@
     <!-- end of preloader section -->
     <!-- upper navigation menu bar -->
     <header>
+
         <div>
             <i class="fas fa-bars" id="sidebar_btn" onclick="opennav()"></i>
         </div>
@@ -53,7 +54,7 @@
         </a>
         <!-- Profile and name -->
         <center>
-            <img src="profile.png" class="profile_image " id="profileimg">
+            <img src="images/dp.jpg" class="profile_image " id="profileimg">
             <h4>Gyana Ranjan Barik</h4>
             <h4>(Developer)</h4>
         </center>
@@ -64,7 +65,8 @@
             <a class="link " href=" #abouts "><i class="fas fa-user , new "></i><span>About</span></a>
             <a class="link " href="  #skills "><i class=" fas fa-code , new "></i><span>Skills</span></a>
             <a class="link " href=" #education "><i class="fas fa-user-graduate , new "></i><span>Education</span></a>
-            <a class="link " href=" #certify-section "><i class="fas fa-id-card , new "></i><span>Certificates</span></a>
+            <a class="link " href=" #certify-section "><i
+                    class="fas fa-id-card , new "></i><span>Certificates</span></a>
             <a class="link " href=" #projects "><i class="fas fa-code-branch , new"></i><span>Projects</span></a>
             <a class="link " href=" #contacts "><i class=" fas fa-id-badge , new "></i><span>Contact Me</span></a>
         </div>
@@ -282,7 +284,7 @@
         <hr data-aos="fade-up">
 
         <div class=" gallery ">
-            <a data-aos="fade-up" href=" certificates/udemy_cpp.png " data-lightbox=" img1 " data-title=" Introduction to C++ " class=" certificates "><img src=" certificates/udemy_cpp.png " alt=" udemy cpp "></a>
+            <a data-aos="fade-up" href=" certificates/SIh_HAckthon.jpg " data-lightbox=" img1 " data-title=" Hackthon Participation " class=" certificates "><img src=" certificates/SIh_HAckthon.jpg " alt=" Hackthon "></a>
             <a data-aos="fade-down" href=" certificates/free_code_camp_certificate.jpg " data-lightbox=" img1 " data-title=" Free Code Camp " class=" certificates "><img src=" certificates/free_code_camp_certificate.jpg "></a>
             <a data-aos="fade-up" href=" certificates/codestudio_java.png " data-lightbox=" img1 " data-title=" Begginer Java Program " class=" certificates "><img src=" certificates/codestudio_java.png "></a>
             <a data-aos="fade-down" href=" certificates/internship_certify.png " data-lightbox=" img1 " data-title=" Internship For Campus Ambasdor " class=" certificates "><img src=" certificates/internship_certify.png "></a>
@@ -301,6 +303,7 @@
             <a data-aos="fade-up" href=" certificates/goldmansach.png " data-lightbox=" img1 " data-title=" Goldman Sach " class=" certificates "><img src=" certificates/goldmansach.png "></a>
             <a data-aos="fade-down" href=" certificates/cognizant.png " data-lightbox=" img1 " data-title=" cognizant certify " class=" certificates "><img src=" certificates/cognizant.png "></a>
             <a data-aos="fade-up" href=" certificates/u_demy_oops.png " data-lightbox=" img1 " data-title=" udemy oops " class=" certificates "><img src=" certificates/u_demy_oops.png "></a>
+            <a data-aos="fade-up" href=" certificates/udemy_cpp.png " data-lightbox=" img1 " data-title=" Introduction to C++ " class=" certificates "><img src=" certificates/udemy_cpp.png " alt=" udemy cpp "></a>
 
         </div>
 
@@ -419,7 +422,8 @@
                 <!--Update the URL for thank you page on form submit -->
                 <!-- <iframe name="hidden_iframe" id="hidden_iframe" style="display:none;" onload="if(submitted) {window.location='https://github.com/Gyana-Ranjan-14/PORTFOLIO';}"></iframe> -->
 
-                <form data-aos="fade-down" class="take-info" action="https://docs.google.com/forms/u/0/d/e/1FAIpQLSdwZ-P5I8vwVsCWCSHNX1ojJ4s0Zup3CApxXeCIEVGAnLeaEg/formResponse" method="post" target="hidden_iframe" onsubmit="return validateForm();">
+                <!-- https://docs.google.com/forms/u/0/d/e/1FAIpQLSdwZ-P5I8vwVsCWCSHNX1ojJ4s0Zup3CApxXeCIEVGAnLeaEg/formResponse" method="post" target="none" -->
+                <form type="hidden" data-aos="fade-down" class="take-info" onsubmit=" validateForm();">
                     <div>
                         <input type=" text " required name="entry.1451697553" class=" form-control " id="firname" placeholder=" Your Name ">
                         <!-- <input type=" text " class=" form-control " placeholder=" Last Name "> -->
