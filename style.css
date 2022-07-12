@@ -85,10 +85,10 @@ header {
 /* Css for the image in sidebar */
 
 .sidebar .profile_image {
-    width: 135px;
-    height: 135px;
+    width: 145px;
+    height: 145px;
     border-radius: 100px;
-    border: 7px solid #202433f3;
+    border: 2px solid #fffffff3;
     margin-bottom: 9px;
     margin-top: -19px;
 }
